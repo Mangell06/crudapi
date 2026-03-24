@@ -50,6 +50,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+AUTH_USER_MODEL = 'employees.Usuari'
+
 ROOT_URLCONF = 'projectDjangoNinja.urls'
 
 TEMPLATES = [
